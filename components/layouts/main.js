@@ -1,14 +1,7 @@
 import Head from 'next/head'
-import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import VoxelRoomLoader from '../voxel-room-loader'
-
-const LazyVoxelRoom = dynamic(() => import('../voxel-room'), {
-  ssr: false,
-  loading: () => <VoxelRoomLoader />
-})
 
 const Main = ({ children, router }) => {
   return (
