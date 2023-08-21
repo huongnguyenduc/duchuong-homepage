@@ -73,12 +73,13 @@ const Work = () => (
         <ListItem>
           <Badge textTransform={"capitalize"} mr={2}>Implement UI Features</Badge>
           <span>
-            for the company dashboard
+            for the company dashboard. Use Radix UI to build design system for the whole web app.
           </span>
           <WorkImage src="/images/works/heydevs_02.png" alt="HeyDevs" />
           <WorkImage src="/images/works/heydevs_05.png" alt="HeyDevs" />
+          <Badge textTransform={"capitalize"} mr={2}>Manage forms</Badge>
           <span>
-           Manage forms via React Hook Form & Zod
+            via React Hook Form & Zod
           </span>
           <WorkImage src="/images/works/heydevs_03.png" alt="HeyDevs" />
 
@@ -95,7 +96,7 @@ const Work = () => (
         <ListItem>
           <Badge textTransform={"capitalize"} mr={2}>Stripe integrated</Badge>
           <span>
-            Stripe integrated for payment flow
+            for payment flow
           </span>
           <WorkImage src="/images/works/heydevs_06.png" alt="HeyDevs" />
         </ListItem>
