@@ -46,9 +46,9 @@ const Work = () => (
       </Heading>
 
       <P style={{marginBottom: "8px"}}>
-        I am working as a solo frontend developer in this project. I am responsible for building the whole frontend, including <Link href="https://beatonic.io/">
+        I am working as a solo frontend developer in this project. I am responsible for building the whole frontend, including <Link href="https://beatonic-coming-soon-huongnguyenduc.vercel.app/">
         Coming Soon page <ExternalLinkIcon mx="2px" /></Link>, <Link href="https://beatonic-frontend.vercel.app/">
-        Beat marketplace (WIP) <ExternalLinkIcon mx="2px" /></Link> and  <Link href="https://beatonic-landing.vercel.app/">Landing Page (WIP)</Link>
+        Beat marketplace (WIP) <ExternalLinkIcon mx="2px" /></Link> and  <Link href="https://beatonic.io/">Landing Page (WIP)</Link>
       </P>
 
       <WorkImage src="/images/works/beatonic.png" alt="beatonic" />
