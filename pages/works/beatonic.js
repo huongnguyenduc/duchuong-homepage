@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="Beatonic">
     <Container>
       <Title>
-        Beatonic <Badge>2023-</Badge>
+        Beatonic <Badge>2023</Badge>
       </Title>
       <P>
         Your one-stop marketplace connecting musicians with top-tier music professionals for hire, revolutionizing music production.
@@ -23,8 +23,8 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://beatonic.io/">
-            https://beatonic.io/ <ExternalLinkIcon mx="2px" />
+          <Link target="_blank" href="https://beatonic-landing.vercel.app/">
+            https://beatonic-landing.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -46,9 +46,10 @@ const Work = () => (
       </Heading>
 
       <P style={{marginBottom: "8px"}}>
-        I am working as a solo frontend developer in this project. I am responsible for building the whole frontend, including <Link href="https://beatonic-coming-soon-huongnguyenduc.vercel.app/">
-        Coming Soon page <ExternalLinkIcon mx="2px" /></Link>, <Link href="https://beatonic-frontend.vercel.app/">
-        Beat marketplace (WIP) <ExternalLinkIcon mx="2px" /></Link> and  <Link href="https://beatonic.io/">Landing Page (WIP)</Link>
+        I am working as a solo frontend developer in this project. I am responsible for building the whole frontend, including <Link target="_blank" href="https://beatonic-coming-soon.vercel.app/">
+        Coming Soon page <ExternalLinkIcon mx="2px" /></Link>, <Link target="_blank" href="https://beatonic-frontend-web.vercel.app/">
+        Beat marketplace (WIP) <ExternalLinkIcon mx="2px" /></Link>, <Link target="_blank" href="https://beatonic-dashboard.vercel.app/content/tracks">
+        Beat Dashboard (WIP) <ExternalLinkIcon mx="2px" /></Link> and <Link target="_blank" href="https://beatonic-landing.vercel.app/">Landing Page (WIP)</Link>
       </P>
 
       <WorkImage src="/images/works/beatonic.png" alt="beatonic" />

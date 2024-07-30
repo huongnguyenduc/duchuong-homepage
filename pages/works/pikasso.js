@@ -1,12 +1,10 @@
 import {
   Container,
   Badge,
-  Link,
   List,
   ListItem,
   Heading, Center, UnorderedList
 } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -15,19 +13,13 @@ const Work = () => (
   <Layout title="Pikasso">
     <Container>
       <Title>
-        Pikasso <Badge>2022-</Badge>
+        Pikasso <Badge>2022-2023</Badge>
       </Title>
       <P>
         Pikasso is a platform where artists and digital creators can confidently express themselves by
         entering new markets.
       </P>
       <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://pikasso.xyz/">
-            https://pikasso.xyz/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
           <span>Web App</span>

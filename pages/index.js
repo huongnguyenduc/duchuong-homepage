@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an frontend developer based in Vietnam!
+        Hello, I&apos;m a Software Engineer based in Vietnam!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Duc-Huong Nguyen
           </Heading>
-          <p>Frontend Developer</p>
+          <p>Software Engineer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -74,7 +74,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Huong is a freelance and a front-end developer based in Vietnam with a
+          Huong is a Software Engineer based in Vietnam with a
           passion for building digital products/stuff that user needs. He has a knack
           for turning design into web app to end-user, solving real-life problems with code.
           When not online, he loves hanging out with his books and learn something new about everything.
@@ -97,7 +97,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Music, Podcast, Reading Books, Cooking, Science, Technology
+          Music, Podcast, Books, Science, Technology, Photography, Badminton
         </Paragraph>
       </Section>
 

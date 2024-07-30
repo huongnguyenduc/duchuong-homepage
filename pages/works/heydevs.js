@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="HeyDevs">
     <Container>
       <Title>
-        HeyDevs <Badge>2023-</Badge>
+        HeyDevs <Badge>2023</Badge>
       </Title>
       <P>
         HeyDevs is the first active sourcing job platform that let companies apply directly to developers.
@@ -23,7 +23,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://heydevs.io/">
+          <Link target="_blank" href="https://heydevs.io/">
             https://heydevs.io/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

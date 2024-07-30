@@ -23,11 +23,11 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://devlabs-ecommerce-admin.vercel.app">
+          <Link target="_blank" href="https://devlabs-ecommerce-admin.vercel.app">
             Admin Dashboard <ExternalLinkIcon mx="2px" />
           </Link>
           {' '}
-          <Link href="https://devlabs-ecommerce-store.vercel.app">
+          <Link target="_blank" href="https://devlabs-ecommerce-store.vercel.app">
             E-commerce Store <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -37,7 +37,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Front-end Stack</Meta>
-          <span>Next.js 13, TailwindCSS, Radix UI, Turborepo, Prisma, MySQL</span>
+          <span>Next.js 14, TailwindCSS, Radix UI, Turborepo, Prisma, PostgresSQL</span>
         </ListItem>
         <ListItem>
           <Meta>Team Size</Meta>
