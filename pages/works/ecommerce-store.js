@@ -49,7 +49,7 @@ const Work = () => (
         <Center>My work in this project</Center>
       </Heading>
 
-      <WorkImage src="/images/works/ecommerce-store.png" alt="Ecommerce Store" />
+      <WorkImage src="/images/works/ecommerce-store.webp" alt="Ecommerce Store" />
 
       <UnorderedList my={4}>
         <ListItem>
@@ -65,8 +65,8 @@ const Work = () => (
         </ListItem>
       </UnorderedList>
 
-      <WorkImage src="/images/works/ecommerce-store_01.png" alt="Ecommerce Store" />
-      <WorkImage src="/images/works/ecommerce-store_02.png" alt="Ecommerce Store" />
+      <WorkImage src="/images/works/ecommerce-store_01.webp" alt="Ecommerce Store" />
+      <WorkImage src="/images/works/ecommerce-store_02.webp" alt="Ecommerce Store" />
     </Container>
   </Layout>
 )

@@ -49,11 +49,11 @@ const Work = () => (
         I am working as a solo frontend developer in this project. I am responsible for building the whole frontend, from setting up the project, implementing UI features, interaction, deploying in various environments, and optimizing the page load time.
       </P>
 
-      <WorkImage src="/images/works/bado-landing-page.png" alt="bado" />
+      <WorkImage src="/images/works/bado-landing-page.webp" alt="bado" />
 
-      <WorkImage src="/images/works/bado-landing-page-1.png" alt="bado" />
+      <WorkImage src="/images/works/bado-landing-page-1.webp" alt="bado" />
 
-      <WorkImage src="/images/works/bado-landing-page-2.png" alt="bado" />
+      <WorkImage src="/images/works/bado-landing-page-2.webp" alt="bado" />
 
       <UnorderedList my={4}>
         <ListItem>

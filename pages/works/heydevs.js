@@ -75,13 +75,13 @@ const Work = () => (
           <span>
             for the company dashboard. Use Radix UI to build design system for the whole web app.
           </span>
-          <WorkImage src="/images/works/heydevs_02.png" alt="HeyDevs" />
-          <WorkImage src="/images/works/heydevs_05.png" alt="HeyDevs" />
+          <WorkImage src="/images/works/heydevs_02.webp" alt="HeyDevs" />
+          <WorkImage src="/images/works/heydevs_05.webp" alt="HeyDevs" />
           <Badge textTransform={"capitalize"} mr={2}>Manage forms</Badge>
           <span>
             via React Hook Form & Zod
           </span>
-          <WorkImage src="/images/works/heydevs_03.png" alt="HeyDevs" />
+          <WorkImage src="/images/works/heydevs_03.webp" alt="HeyDevs" />
 
         </ListItem>
 
@@ -90,15 +90,15 @@ const Work = () => (
           <span>
             Work with <code>React Beautiful dnd</code> library to build interaction behaviors & kanban board
           </span>
-          <WorkImage src="/images/works/heydevs_04.png" alt="HeyDevs" />
-          <WorkImage src="/images/works/heydevs_01.png" alt="HeyDevs" />
+          <WorkImage src="/images/works/heydevs_04.webp" alt="HeyDevs" />
+          <WorkImage src="/images/works/heydevs_01.webp" alt="HeyDevs" />
         </ListItem>
         <ListItem>
           <Badge textTransform={"capitalize"} mr={2}>Stripe integrated</Badge>
           <span>
             for payment flow
           </span>
-          <WorkImage src="/images/works/heydevs_06.png" alt="HeyDevs" />
+          <WorkImage src="/images/works/heydevs_06.webp" alt="HeyDevs" />
         </ListItem>
         <ListItem>
           <Badge textTransform={"capitalize"} mr={2}>Up-to-date technology</Badge>

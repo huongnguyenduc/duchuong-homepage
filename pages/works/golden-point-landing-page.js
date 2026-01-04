@@ -49,15 +49,15 @@ const Work = () => (
         I am working as a solo frontend developer in this project. I am responsible for building the whole frontend, from setting up the project, implementing UI features, interaction, deploying in various environments, and optimizing the page load time.
       </P>
 
-      <WorkImage src="/images/works/golden-point.png" alt="golden-point" />
+      <WorkImage src="/images/works/golden-point.webp" alt="golden-point" />
 
-      <WorkImage src="/images/works/golden-point-1.png" alt="golden-point" />
+      <WorkImage src="/images/works/golden-point-1.webp" alt="golden-point" />
 
-      <WorkImage src="/images/works/golden-point-2.png" alt="golden-point" />
+      <WorkImage src="/images/works/golden-point-2.webp" alt="golden-point" />
 
-      <WorkImage src="/images/works/golden-point-4.png" alt="golden-point" />
+      <WorkImage src="/images/works/golden-point-4.webp" alt="golden-point" />
 
-      <WorkImage src="/images/works/golden-point-3.png" alt="golden-point" />
+      <WorkImage src="/images/works/golden-point-3.webp" alt="golden-point" />
 
       <UnorderedList my={4}>
         <ListItem>

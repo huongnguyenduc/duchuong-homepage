@@ -42,7 +42,7 @@ const Work = () => (
           Creator Dashboard
       </Heading>
 
-      <WorkImage src="/images/works/pikasso_02.png" alt="Pikasso" />
+      <WorkImage src="/images/works/pikasso_02.webp" alt="Pikasso" />
 
       <UnorderedList my={4}>
         <ListItem>
@@ -78,7 +78,7 @@ const Work = () => (
           Marketplace
       </Heading>
 
-      <WorkImage src="/images/works/pikasso_01.png" alt="Pikasso" />
+      <WorkImage src="/images/works/pikasso_01.webp" alt="Pikasso" />
 
       <UnorderedList my={4}>
         <ListItem>

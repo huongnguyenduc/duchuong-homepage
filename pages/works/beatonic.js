@@ -52,11 +52,11 @@ const Work = () => (
         Beat Dashboard (WIP) <ExternalLinkIcon mx="2px" /></Link> and <Link target="_blank" href="https://beatonic-landing.vercel.app/">Landing Page (WIP)</Link>
       </P>
 
-      <WorkImage src="/images/works/beatonic.png" alt="beatonic" />
+      <WorkImage src="/images/works/beatonic.webp" alt="beatonic" />
 
-      <WorkImage src="/images/works/beatonic_01.png" alt="beatonic" />
+      <WorkImage src="/images/works/beatonic_01.webp" alt="beatonic" />
 
-      <WorkImage src="/images/works/beatonic_02.png" alt="beatonic" />
+      <WorkImage src="/images/works/beatonic_02.webp" alt="beatonic" />
 
       <UnorderedList my={4}>
         <ListItem>
