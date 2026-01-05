@@ -23,11 +23,11 @@ import {
   IoLogoInstagram,
   IoLogoGithub,
   IoLogoLinkedin,
-  IoLogoTelegram,
   IoMail,
   IoDownload,
   IoEye
 } from 'react-icons/io5'
+import { FaTelegram } from 'react-icons/fa'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -184,7 +184,7 @@ const Home = () => {
                 <Button
                   variant="ghost"
                   colorScheme="teal"
-                  leftIcon={<IoLogoTelegram />}
+                  leftIcon={<FaTelegram />}
                 >
                   @duchuongnguyen
                 </Button>
