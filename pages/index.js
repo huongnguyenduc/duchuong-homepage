@@ -23,6 +23,7 @@ import {
   IoLogoInstagram,
   IoLogoGithub,
   IoLogoLinkedin,
+  IoLogoTelegram,
   IoMail,
   IoDownload,
   IoEye
@@ -175,6 +176,17 @@ const Home = () => {
                   leftIcon={<IoLogoGithub />}
                 >
                   @huongnguyenduc
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://t.me/duchuongnguyen" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<IoLogoTelegram />}
+                >
+                  @duchuongnguyen
                 </Button>
               </Link>
             </ListItem>
